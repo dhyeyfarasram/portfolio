@@ -58,7 +58,7 @@ const Portfolio = () => {
             {
                 portfolio.map(({id,src,link})=>(
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                      <a href={link} target="_blank">  <img src={src} alt="NewsLetter Website" className="rounded-md duration-200 hover:scale-105"> 
+                      <a href={link} target="_blank" rel="noreferrer">  <img src={src} alt="NewsLetter Website" className="rounded-md duration-200 hover:scale-105"> 
                         </img></a>
                     </div>
                 ))
