@@ -1,10 +1,11 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+//import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import NewsLetter from '../assets/portfolio/NewsLetter.jpg'
 
 
 
@@ -13,7 +14,7 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            src: arrayDestruct,
+            src: NewsLetter,
             link: 'https://github.com/Dhyey-Mcmaster/Session-UserAuth'
         },
         {
@@ -57,8 +58,8 @@ const Portfolio = () => {
             {
                 portfolio.map(({id,src,link})=>(
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                        <img src={src} alt="NewsLetter Website" className="rounded-md duration-200 hover:scale-105"> 
-                        </img>
+                      <a href={link} target="_blank">  <img src={src} alt="NewsLetter Website" className="rounded-md duration-200 hover:scale-105"> 
+                        </img></a>
                     </div>
                 ))
             }
