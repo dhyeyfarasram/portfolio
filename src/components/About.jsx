@@ -9,22 +9,9 @@ const About = () => {
             </div>
 
             <p className="text-xl mt-20">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+            Dedicated student interested in applying excellent communication and interpersonal skills to a Web Developer role, with innovative Software Developer skills and hands-on experience designing and testing applications. Well-versed in Agile methodologies and coding languages. Dedicated to developing creative solutions to meet business goals and requirements.
             </p>
             <br/>
-            <p className="text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
-            </p>
         </div>
     </div>
   )

@@ -11,8 +11,7 @@ const Home = () => {
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">Im a Developer</h2>
                 <p className="text-gray-500 py-4 max-w-md">
-                A motivated individual who demonstrates a strong work ethic and creative ability. Seeking to apply my software development and technical skills at your company. Will leverage proven experience as a competent developer to contribute to company goals and needs. I will work on any project and try to learn the necessary skill set required the 
-job.
+                Versatile Software Developer equally comfortable creating solutions for on-premise or cloud-based deployments. Exploits Agile development methodologies to rapidly iterate and improve products. Consistent provider of useful and actionable input on all projects.
                 </p>
                 <div>
                     <Link to="portfolio" smooth duartion={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
