@@ -1,11 +1,6 @@
 import React from 'react'
 //import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
-import NewsLetter from '../assets/portfolio/NewsLetter.jpg'
+import Project from '../assets/portfolio/NewsLetter.jpg'
 
 
 
@@ -14,34 +9,24 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            src: NewsLetter,
+            src: Project,
             link: 'https://github.com/Dhyey-Mcmaster/Session-UserAuth'
         },
         {
             id: 2,
-            src: installNode,
-            link: ''
+            src: Project,
+            link: 'https://github.com/Dhyey-Mcmaster/MediaControl'
         },
         {
             id: 3,
-            src: navbar,
-            link: ''
+            src: Project,
+            link: 'https://github.com/Dhyey-Mcmaster/3RQ3_Project'
         },
         {
             id: 4,
-            src: reactParallax,
-            link: ''
-        },
-        {
-            id: 5,
-            src: reactSmooth,
-            link: ''
-        },
-        {
-            id: 6,
-            src: reactWeather,
-            link: ''
-        },
+            src: Project,
+            link: 'https://github.com/Dhyey-Mcmaster/PlantPlus'
+        }
     ]
 
   return (
