@@ -9,8 +9,7 @@ const About = () => {
             </div>
 
             <p className="text-xl mt-20">
-            Dedicated student interested in applying excellent communication and interpersonal skills to a Web Developer role, with innovative Software Developer skills and hands-on experience designing and testing applications. Well-versed in Agile methodologies and coding languages. Dedicated to developing creative solutions to meet business goals and requirements.
-            </p>
+Exemplary software professional with 3+ years of experience in developing web applications using JavaScript, HTML, and CSS, and integrating third-party APIs to enable seamless user experience. Skilled at developing scalable software solutions, conducting comprehensive testing, and actively participating in code reviews to ensure optimal functionality. Proficient in developing RESTful APIs for improving data exchange efficiency and reducing response time.            </p>
             <br/>
         </div>
     </div>
