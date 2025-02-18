@@ -1,6 +1,9 @@
 import React from 'react'
 //import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import Project from '../assets/portfolio/NewsLetter.jpg'
+import Meida from '../assets/portfolio/Media.jpg'
+import Automate from '../assets/portfolio/Automate.jpg'
+import Plant from '../assets/portfolio/Plant.jpg'
 
 
 
@@ -14,17 +17,17 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: Project,
+            src: Media,
             link: 'https://github.com/Dhyey-Mcmaster/MediaControl'
         },
         {
             id: 3,
-            src: Project,
+            src: Automate,
             link: 'https://github.com/Dhyey-Mcmaster/3RQ3_Project'
         },
         {
             id: 4,
-            src: Project,
+            src: Plant,
             link: 'https://github.com/Dhyey-Mcmaster/PlantPlus'
         }
     ]
