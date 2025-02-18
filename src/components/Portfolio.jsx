@@ -1,7 +1,7 @@
 import React from 'react'
 //import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import Project from '../assets/portfolio/NewsLetter.jpg'
-import Meida from '../assets/portfolio/Media.jpg'
+import Media from '../assets/portfolio/Media.jpg'
 import Automate from '../assets/portfolio/Automate.jpg'
 import Plant from '../assets/portfolio/Plant.jpg'
 
